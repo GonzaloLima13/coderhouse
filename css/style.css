@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Estilo body */
+body{
+    margin:0;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: #693f8d;
+    padding-bottom: 7em;
+    min-height: 100vh;
+}
+
+.img-index{
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.arrowsdiv{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.arrows{
+    width: 3%;
+    margin: 0px auto;
+}
+
+/* Estilo nav */
+
+nav{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+
+.nav-logotext{
+    font-size: 40px;
+    padding-right: 100px;
+    font-family: 'Ms Madi', sans-serif;
+}
+
+.nav-logotext{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 9px;
+}
+
+nav ul li:hover{
+    background-color: lavender;
+    transition: border 1.2s;
+}
+
+.logonav{
+    width: 7%;
+}
+
+.inicio-sesion{
+    max-height: 3rem;
+    padding-right: 25px;
+}
+
+/* Estilo header */
+
+
+header div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.h1-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+/* Section sobre nosotros */
+#sobre-nosotros{
+    border: 3px solid black;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+/* Form contacto */
+#form-contacto{
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Galeria catalogo */
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Main servicios */
+
+.service-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+main div{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+/* Estilo footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid black;
+    padding-left: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    text-align: right;
+    padding: 0px 20px 0px 20px;
+    text-decoration: underline;
+} 
+
+footer a{
+    color: black;
+    font-weight: bold;
+}
